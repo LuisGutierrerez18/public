@@ -21,7 +21,7 @@ int main(){
     } 
 
     string line1;
-    ifstream myfile ("datosVuelosC-1.txt");{
+    ifstream myfile ("datosVuelos.txt");{
         if (myfile.is_open())
         {
             while(getline(myfile, line1)) {

@@ -14,7 +14,7 @@ class Aeropuerto{
         string lugar; // Lugar Aeropuerto
         string nombre; // Nombre Aeropuerto
         int numPistas;
-        string codigosAeropuertos[7];
+        string codigosAeropuertos[6];
     
     public:
         // Constructor que toma el numero de gates y horario 
@@ -90,7 +90,7 @@ class Aeropuerto{
             
 
             //*** For loop to traverse each index in the array and print every value ***///
-               for (int i = 0; i < 7; ++i){
+               for (int i = 0; i < 6; ++i){
                 info += codigosAeropuertos[i] + "\n";
             }
 
