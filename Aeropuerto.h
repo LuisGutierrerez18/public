@@ -23,7 +23,6 @@ class Aeropuerto{
             nombre = _nombre;
             num_gates = numGates;
             numPistas = _pistas;
-            /*
             disponibilidad[0] = "(1). 00:00-1:00 AM";
             disponibilidad[1] = "(2). 1:00-2:00 AM";
             disponibilidad[2] = "(3). 2:00-3:00 AM";
@@ -31,7 +30,7 @@ class Aeropuerto{
             disponibilidad[4] = "(5). 4:00-5:00 AM";
             disponibilidad[5] = "(6). 5:00-6:00 AM";
             disponibilidad[6] = "(7). 6:00-7:00 AM";
-            */
+            
             // Pruebas de aeropuertos
             codigosAeropuertos[0] = "MEX Aeropuerto_Internacional_Benito_Juarez Ciudad_de_Mexico Mexico";
             codigosAeropuertos[1] = "MTY Aeropuerto_Internacional_Gral_Mariano_EScobedo Monterrey Mexico";
